@@ -1,0 +1,112 @@
+body{
+    background-color: aquamarine;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 700px;
+    margin:auto;
+    margin-top: 10px;
+    margin-bottom: 44px;
+    height: 450px;
+    border-radius: 9px;
+    background-color: rgba(250, 228, 169, 0.904);
+    color: azure;
+    padding: 20px;
+    min-width: 75vh;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #808000;
+}
+.form{
+    max-width: 500px;
+    margin-top:40px;
+    margin-left: 100px;
+    padding-left: 12px;
+    height: 300px;
+    border-radius: 9px;
+    background-color: black;
+    color: white;
+}
+#heading{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(243, 14, 26);
+}
+nav{
+    height: 60px;
+    background-color: black;
+    color: white;
+
+}
+nav ul li{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.bottom{
+    position:sticky;
+    bottom: 0px;
+    padding: 3%;
+    background-color: black;
+    color: white;
+}
+#note{
+    text-align: center;
+    color: brown;
+}
+#Course{
+    margin-left: 90px;
+    margin-top: 40px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: medium;
+    background-color: rgb(255, 127, 127);
+    cursor: pointer;
+}
+#field{
+   margin-left: 130px;
+   height: 30px;
+   border-radius: 10px;
+   font-size: medium;
+   background-color: rgb(255, 142, 127);
+   cursor: pointer;
+   width: 200px
+
+}
+#State{
+    margin-left: 28px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: medium;
+    background-color: rgb(255, 127, 127);
+    cursor: pointer;
+    width: 200px;
+}
+#submit{
+    margin-left: 200px;
+    height: 35px;
+    width: 90px;
+    border-radius: 10px;
+    font-size: medium;
+    background-color: rgb(255, 127, 127);
+    cursor: pointer;
+}
+#line1{
+    font-weight: bolder;
+}
+#line2{
+    font-weight: bolder;
+}
+#line3{
+    font-weight: bolder;
+}
+
+.table{
+    background-color: whitesmoke;
+}
+#table1{
+    margin: auto;
+}

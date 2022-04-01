@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
+.bdiv{
+  background-color: aquamarine;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  max-width: 700px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 44px;
+  height: 450px;
+  border-radius: 9px;
+  background-color: rgb(88, 34, 99);
+  color: azure;
+  padding-top: 40px;
+  min-width:75vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.form{
+  max-width: 500px;
+  margin-top:40px;
+  margin-left: 100px;
+  padding-left: 12px;
+  height: 300px;
+  border-radius: 9px;
+  background-color: black;
   color: white;
 }
+#heading{
+  text-align: center;
+  text-decoration: underline;
+  color: rgb(45, 189, 141);
+}
+nav{
+  height: 60px;
+  background-color: lightseagreen;
+  color: white;
 
-.App-link {
-  color: #61dafb;
+}
+nav ul li{
+  padding-top: 7px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2rem;
+  text-shadow: 2px;
+  
+}
+.bottom{
+  position:sticky;
+  bottom: 0px;
+  padding: 3%;
+  background-color: coral;
+  color: white;
+}
+#note{
+  text-align: center;
+  color: brown;
+}
+#Course{
+  margin-left: 90px;
+  margin-top: 40px;
+  height: 30px;
+  border-radius: 10px;
+  font-size: medium;
+  background-color: aquamarine;
+  cursor: pointer;
+}
+#Tier{
+ margin-left: 45px;
+ height: 30px;
+ border-radius: 10px;
+ font-size: medium;
+ background-color: aquamarine;
+ cursor: pointer;
+
+}
+#State{
+  margin-left: 19px;
+  height: 30px;
+  border-radius: 10px;
+  font-size: medium;
+  background-color: aquamarine;
+  cursor: pointer;
+}
+#submit{
+  margin-left: 200px;
+  height: 35px;
+  width: 90px;
+  border-radius: 10px;
+  font-size: medium;
+  background-color: aquamarine;
+  cursor: pointer;
+}
+#line1{
+  font-weight: bolder;
+  color: aqua;
+}
+#line2{
+  font-weight: bolder;
+  color: aqua;
+}
+#line3{
+  font-weight: bolder;
+  color: aqua;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

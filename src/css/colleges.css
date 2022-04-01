@@ -1,0 +1,7 @@
+#list-parent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2%;
+    background: rgb(255, 134, 134);
+}
